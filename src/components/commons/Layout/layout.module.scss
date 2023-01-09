@@ -1,0 +1,32 @@
+@import '../../../styles/mixings.scss';
+
+.layout {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 50px;
+
+  padding-bottom: 50px;
+  min-height: 500px;
+
+  &.center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  @include media-breakpoint-only(md) {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+
+  @include media-breakpoint-only(sm) {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  @include media-breakpoint-only(xs) {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}

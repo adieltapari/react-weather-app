@@ -1,8 +1,8 @@
-import Title from 'components/commons/Title';
 import './App.module.scss';
+import Home from 'views/Home';
 
 const App = () => {
-  return <Title text="hola" />;
+  return <Home />;
 };
 
 export default App;

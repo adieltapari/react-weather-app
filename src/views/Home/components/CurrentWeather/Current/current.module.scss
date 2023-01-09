@@ -1,0 +1,30 @@
+@import '../../../../../styles/mixings.scss';
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  border-radius: 10px;
+  height: 180px;
+}
+
+.contentDescrp {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 160px;
+  margin-top: 2px;
+}
+.contentTemp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contentHumedity {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  justify-content: center;
+}
