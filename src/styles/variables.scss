@@ -1,0 +1,51 @@
+:root {
+  // Fonts
+  --main-font: 'Lato', sans-serif;
+  --title-font: 'Noto Sans KR', sans-serif;
+
+  // Body
+  --Background-body: var(--white);
+
+  // colors
+  --primary-color: #ff5252;
+  --primary-hover: #f05545;
+  --secundary-color: #b71c1c;
+  --third-color: #f3f3f3;
+  --grey-light: #f6f6f6;
+
+  // Inputs
+  --border-input: #263238;
+  --border-hover: #f05545;
+  --placeholder-color: var(--grey-light);
+
+  --white: #fff;
+  --black: #000;
+
+  //text
+  --title: var(--primary-color);
+  --color-text: #451818;
+  --color-text-light: #ffffff;
+
+  // error
+  --errors: rgb(206, 0, 0);
+
+  // warning
+  --warning: #fdd835;
+
+  //navbar
+  --navbar: #ff5252;
+
+  // Menu simple
+  --background-card-menu: var(--Background-body);
+
+  //button primary
+  --background-button: #e54e4e;
+  --background-button-hover: #a22222;
+  --text-button: var(--white);
+
+  // Button circule
+  --background-circle-button: #ff7676;
+  --background-circle-button-hover: rgba(255, 118, 118, 0.1);
+  //
+  --transparent: transparent;
+}
