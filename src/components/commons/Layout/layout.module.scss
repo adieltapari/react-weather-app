@@ -2,10 +2,15 @@
 
 .layout {
   display: grid;
-
+  background-image: url('../../../../public/img1.jpg');
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
   grid-template-columns: 1fr 1fr 1fr;
   padding-top: 50px;
-
+  position: relative;
+  z-index: -1;
   padding-bottom: 50px;
   min-height: 500px;
 
